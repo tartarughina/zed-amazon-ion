@@ -1,0 +1,52 @@
+{
+  name: "John Doe",
+  age: 30,
+  active: true,
+  balance: 1234.56d,
+  created: 2023-01-01T00:00:00Z,
+  tags: ["customer", "premium"],
+  metadata: {
+    source: 'web',
+    score: null.int,
+    ratings: [4.5, 3.8, 5.0]
+  }
+}
+
+// Annotated values
+person::{
+  name: "Jane Smith",
+  contact: email::"jane@example.com",
+  preferences: settings::{
+    theme: "dark",
+    notifications: true
+  }
+}
+
+// S-expressions
+(+ 1 2 3)
+(lambda (x) (* x x))
+
+// Various data types
+null
+true
+false
+42
+-17
+0xFF
+0b1010
+3.14159
+2.718281828d
++inf
+-inf
+nan
+2023-12-25T10:30:00Z
+"Hello, World!"
+'quoted_symbol'
+identifier_symbol
+{{SGVsbG8gV29ybGQ=}}
+{{"Hello World"}}
+
+/* Multi-line
+   block comment
+   with Ion data */
+[1, 2, 3, null, true, "test"]

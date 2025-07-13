@@ -1,0 +1,3 @@
+("[" "]") @bracket
+("(" ")") @bracket
+("{" "}") @bracket

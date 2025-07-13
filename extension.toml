@@ -1,0 +1,15 @@
+id = "ion"
+name = "Ion"
+description = "Amazon Ion and Ion Schema Language support."
+version = "0.1.0"
+schema_version = 1
+authors = ["Riccardo Strina <riccardo.strina@icloud.com>"]
+repository = "https://github.com/tartarughina/zed-amazon-ion"
+
+[grammars.ion]
+repository = "https://github.com/tartarughina/tree-sitter-ion"
+commit = "fb63470690c067fdfc04800807e60a50854740aa"
+
+[grammars.ion_schema]
+repository = "https://github.com/tartarughina/tree-sitter-ion-schema"
+commit = "eee29bb23e9f000f2eed6646030faabf91e6c69d"
