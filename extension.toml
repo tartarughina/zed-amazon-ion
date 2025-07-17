@@ -8,7 +8,7 @@ repository = "https://github.com/tartarughina/zed-amazon-ion"
 
 [grammars.ion]
 repository = "https://github.com/tartarughina/tree-sitter-ion"
-commit = "fb63470690c067fdfc04800807e60a50854740aa"
+commit = "edf56069a2fde6834be0ca440401e6c899eaa633"
 
 [grammars.ion_schema]
 repository = "https://github.com/tartarughina/tree-sitter-ion-schema"

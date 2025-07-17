@@ -3,11 +3,13 @@ grammar = "ion"
 path_suffixes = ["ion"]
 line_comments = ["// "]
 block_comment = ["/*", "*/"]
-autoclose_before = ";:.,=}])"
+autoclose_before = ";:.,=}])\"'"
 brackets = [
     { start = "{", end = "}", close = true, newline = true },
     { start = "[", end = "]", close = true, newline = true },
     { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false },
+    { start = "'", end = "'", close = true, newline = false },
 ]
 
 # Add word characters for better selection
