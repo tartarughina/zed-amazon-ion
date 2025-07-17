@@ -5,33 +5,27 @@
 ; Schema keywords
 "schema_header" @keyword
 "import" @keyword.control.import
-"type" @keyword
+"type" @module
 
 ; Ion literals (inherited from Ion)
 (null) @constant.builtin
-(bool) @constant.builtin.boolean
-(int) @constant.numeric.integer
-(float) @constant.numeric.float
-(decimal) @constant.numeric
-(timestamp) @constant.numeric
+(bool) @boolean
+(int) @number
+(float) @number.float
+(decimal) @number.float
+(timestamp) @character.special
 
 ; Strings and symbols
 (string) @string
-(symbol) @string.symbol
+(symbol) @symbol
 (blob) @string.special
-(clob) @string.special
+(clob) @string.special.symbol
 
 ; Containers
-"[" @punctuation.bracket
-"]" @punctuation.bracket
-"(" @punctuation.bracket
-")" @punctuation.bracket
-"{" @punctuation.bracket
-"}" @punctuation.bracket
+["[" "]" "(" ")" "{" "}"] @punctuation.bracket
 
 ; Separators
-"," @punctuation.delimiter
-":" @punctuation.delimiter
+["," ":"] @punctuation.delimiter
 
 ; Annotations
 (annotation) @attribute

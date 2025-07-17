@@ -12,4 +12,4 @@ commit = "edf56069a2fde6834be0ca440401e6c899eaa633"
 
 [grammars.ion_schema]
 repository = "https://github.com/tartarughina/tree-sitter-ion-schema"
-commit = "eee29bb23e9f000f2eed6646030faabf91e6c69d"
+commit = "0cd4f05aa6b0776aa644c82c5e2e2d632db931f7"
