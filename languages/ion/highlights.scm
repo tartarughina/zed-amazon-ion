@@ -23,10 +23,9 @@
 ["," ":"] @punctuation.delimiter
 
 ; Annotations
-(annotation) @attribute
-"::" @operator
+(annotation (symbol) @namespace)
+"::" @namespace
 (operator) @operator
 
 ; Field names in structs - first child is the key
 (field . (symbol) @property)
-(field . (string) @property)
